@@ -1,0 +1,9 @@
+*.stderr
+*.stdout
+*.o
+*.deps
+*.a
+*.d
+*.lexch
+*.ali
+*.bexch

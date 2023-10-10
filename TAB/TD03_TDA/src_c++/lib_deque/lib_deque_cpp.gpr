@@ -1,0 +1,15 @@
+library project Lib_Deque_Cpp is
+    for Create_Missing_Dirs use "True";
+    for Languages use ("c++");
+    --  création d'un fichier libcomplexe.a
+    for Library_Name use "deque_cpp";
+    for Object_Dir   use ".obj";
+    for Library_Dir  use "lib";
+    for Library_Kind use "static";
+    for Source_Dirs use ("src_lib/**");
+
+    package Compiler is
+        for Driver ("c++") use "g++";
+        for Switches ("c++") use ("-O2", "-W", "-Wall", "-Werror", "-std=c++20", "-pedantic");
+    end Compiler;
+end Lib_Deque_Cpp;
