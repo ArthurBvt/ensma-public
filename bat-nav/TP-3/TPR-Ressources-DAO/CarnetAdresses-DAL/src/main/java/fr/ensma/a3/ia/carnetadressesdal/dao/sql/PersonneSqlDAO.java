@@ -1,0 +1,7 @@
+package fr.ensma.a3.ia.carnetadressesdal.dao.sql;
+
+import fr.ensma.a3.ia.carnetadressesdal.dao.entity.PersonneEntity;
+
+public class PersonneSqlDAO extends AbstractSqlDAO<PersonneEntity> {
+
+}
