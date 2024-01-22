@@ -17,8 +17,8 @@ public class GestionCanaux {
         listCanaux = new ArrayList<ChatCanalDesc>();
         // FIXME: Ajout couche DAL
         listCanaux.add(new ChatCanalDesc(1, "MikkyChat", "Canal de chat privé de Mikky..."));
-        listCanaux.add(new ChatCanalDesc(2, "Suez", "Canal de Suez..."));
-        listCanaux.add(new ChatCanalDesc(3, "Panama", "Canal du Panama..."));
+        listCanaux.add(new ChatCanalDesc(2, "Jeu-1", "Serveur de jeu 1"));
+        listCanaux.add(new ChatCanalDesc(3, "Jeu-2", "Serveur de jeu 2"));
     }
 
     public Optional<ChatCanalDesc> getCanal(final int idcan) {

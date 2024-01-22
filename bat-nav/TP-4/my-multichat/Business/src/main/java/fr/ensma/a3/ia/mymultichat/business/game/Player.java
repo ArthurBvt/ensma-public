@@ -2,14 +2,19 @@ package fr.ensma.a3.ia.mymultichat.business.game;
 
 public class Player {
 
-	public Player() {
-		// TODO Auto-generated constructor stub
+	private String name;
+	
+	public Player(final String name) {
+		this.name = name;
+	}
+	
+	public String getName() {
+		return this.name;
 	}
 	
 	@Override
 	public boolean equals(Object obj) {
-		// TODO Auto-generated method stub
-		return super.equals(obj);
+		return ((Player) obj).getName().equals(name);
 	}
 	
 }
