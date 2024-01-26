@@ -15,14 +15,10 @@ mdd_gen mdd_gen_init(size_t size) {
 void mdd_gen_write(mdd_gen mdd, void *val) {
 
 
-    if (sizeof(*val) <= mdd->size) {
-        pthread_mutex_lock(&(mdd->mutex));
-        memcpy(mdd->val, val, mdd->size);
-	    mdd->dirty=1;
-	    pthread_mutex_unlock(&(mdd->mutex));
-    } else {
-        printf("erreur taille");
-    }
+    pthread_mutex_lock(&(mdd->mutex));
+    memcpy(mdd->val, val, mdd->size);
+	mdd->dirty=1;
+	pthread_mutex_unlock(&(mdd->mutex));
 
 }
 

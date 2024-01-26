@@ -19,9 +19,19 @@
 #include "communication.h"
 #include "myev3.h"
 #include "workers.h"
+#include "bal.h"
+
+
 
 // Shared data and mailboxes
 volatile MDD_int MDD_quit;
+volatile MDD_int MDD_status;
+volatile MDD_int MDD_auto_command;
+volatile MDD_int MDD_power;
+volatile BALD_int BAL_direct_command;
+volatile mdd_gen mdd_reset;
+volatile mdd_gen mdd_position;
+volatile mdd_gen mdd_target;
 // TODO: declare the rest
 
 typedef struct
@@ -29,25 +39,34 @@ typedef struct
 	int x;
 	int y;
 	int deg;
-} reset;
+}reset;
 
 typedef struct
 {
 	double x;
 	double y;
+	double rad;
 }position;
 
 typedef struct
 {
 	int x;
 	int y;
-};
+}target;
+
 
 
 
 
 void init_comms() {
 	MDD_quit = MDD_int_init(0);
+	MDD_auto_command = MDD_int_init(0);
+	MDD_status = MDD_int_init(STATUS_STANDBY);
+	MDD_power = MDD_int_init(0);
+	BAL_direct_command = BALD_int_init(CMD_STOP);
+	mdd_reset = mdd_gen_init(sizeof(reset));
+	mdd_position = mdd_gen_init(sizeof(position));
+	mdd_target = mdd_gen_init(sizeof(target));
 
 	// TODO: initialize the rest
 }
@@ -66,9 +85,27 @@ void *sendThread(FILE * outStream) {
 	int x, y, a;
 	int status;
 	struct timespec horloge;
+	int dirty_pos;
+	int dirty_status;
+	position * pos;
+
 	clock_gettime(CLOCK_REALTIME, &horloge);
 	while (!MDD_int_read(MDD_quit)) {
 		// TODO : complete this
+		dirty_pos = mdd_gen_read2(mdd_position, pos);
+		if (dirty_pos) {
+			x = (int) pos->x;
+			fprintf(outStream, x);
+			y = (int) pos->y;
+			fprintf(outStream, y);
+			a = (int) pos->rad;
+			fprintf(outStream, a);
+		}
+		dirty_status = mdd_int_read2(MDD_status, status);
+		if (dirty_status) {
+			fprintf(outStream, status);
+		}
+
 		fflush(outStream);
 		add_ms(&horloge, 200);
 		clock_nanosleep(CLOCK_REALTIME, TIMER_ABSTIME, &horloge, 0);
@@ -88,6 +125,30 @@ void *sendThread(FILE * outStream) {
  */
 void *directThread(void*dummy) {
 	// TODO : this is a bit long of a switch/case structure but it's fun
+	int commande;
+	while (!MDD_int_read(MDD_quit)) {
+		BALD_int_read2(BAL_direct_command, &commande);
+		switch (commande)
+		{
+		case CMD_STOP:
+			/* code */
+			break;
+		case CMD_FORWARD:
+			/* code */
+			break;
+		case CMD_BACKWARD:
+			/* code */
+			break;
+		case CMD_RIGHT:
+			/* code */
+			break;
+		case CMD_LEFT:
+			/* code */
+			break;
+		default:
+			break;
+		}
+	}
 	return 0;
 }
 
