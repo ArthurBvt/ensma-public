@@ -1,0 +1,1 @@
+/root/r/build/ev3ros/ament_cmake_environment_hooks/local_setup.zsh

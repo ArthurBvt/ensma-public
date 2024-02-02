@@ -1,0 +1,22 @@
+[01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn DiffDriveEv3::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:72:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   72 | CallbackReturn DiffDriveEv3::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn DiffDriveEv3::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:79:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   79 | CallbackReturn DiffDriveEv3::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+      |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type DiffDriveEv3::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:86:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   86 | hardware_interface::return_type DiffDriveEv3::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:86:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+   86 | hardware_interface::return_type DiffDriveEv3::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type DiffDriveEv3::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:114:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  114 | hardware_interface::return_type DiffDriveEv3::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+      |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:114:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+  114 | hardware_interface::return_type DiffDriveEv3::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+      |                                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K

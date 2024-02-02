@@ -1,0 +1,2 @@
+source;share/ev3ros/environment/ament_prefix_path.sh
+source;share/ev3ros/environment/path.sh

@@ -1,0 +1,1 @@
+/root/r/build/diffdrive_ev3/ament_cmake_environment_hooks/local_setup.bash

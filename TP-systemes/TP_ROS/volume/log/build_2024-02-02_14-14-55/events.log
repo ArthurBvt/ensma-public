@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.000157] (diffdrive_ev3) JobQueued: {'identifier': 'diffdrive_ev3', 'dependencies': OrderedDict()}
+[0.000184] (ev3ros) JobQueued: {'identifier': 'ev3ros', 'dependencies': OrderedDict()}
+[0.000198] (diffdrive_ev3) JobStarted: {'identifier': 'diffdrive_ev3'}
+[0.056538] (ev3ros) JobStarted: {'identifier': 'ev3ros'}
+[0.099677] (-) TimerEvent: {}
+[0.111317] (diffdrive_ev3) JobProgress: {'identifier': 'diffdrive_ev3', 'progress': 'cmake'}
+[0.111539] (diffdrive_ev3) Command: {'cmd': ['/usr/bin/cmake', '/root/r/diffdrive_ev3', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/root/r/install/diffdrive_ev3'], 'cwd': '/root/r/build/diffdrive_ev3', 'env': OrderedDict([('HOSTNAME', 'B460-008'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/r/ev3ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/r/install:/root/YDLidar-SDK/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/r/install/ev3ros:/root/YDLidar-SDK/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('PWD', '/root/r/build/diffdrive_ev3'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/r/install/ev3ros:/root/YDLidar-SDK/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[0.114363] (ev3ros) JobProgress: {'identifier': 'ev3ros', 'progress': 'cmake'}
+[0.114803] (ev3ros) JobProgress: {'identifier': 'ev3ros', 'progress': 'build'}
+[0.115312] (ev3ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/r/build/ev3ros', '--', '-j12', '-l12'], 'cwd': '/root/r/build/ev3ros', 'env': OrderedDict([('HOSTNAME', 'B460-008'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/r/ev3ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/r/install:/root/YDLidar-SDK/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/r/install/ev3ros:/root/YDLidar-SDK/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('PWD', '/root/r/build/ev3ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/r/install/ev3ros:/root/YDLidar-SDK/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[0.137665] (ev3ros) CommandEnded: {'returncode': 0}
+[0.148651] (diffdrive_ev3) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.151131] (ev3ros) JobProgress: {'identifier': 'ev3ros', 'progress': 'install'}
+[0.156184] (ev3ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/r/build/ev3ros'], 'cwd': '/root/r/build/ev3ros', 'env': OrderedDict([('HOSTNAME', 'B460-008'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/r/ev3ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/r/install:/root/YDLidar-SDK/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/r/install/ev3ros:/root/YDLidar-SDK/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('PWD', '/root/r/build/ev3ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/r/install/ev3ros:/root/YDLidar-SDK/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[0.161511] (ev3ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.161828] (ev3ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.162109] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/config/empty.yaml\n'}
+[0.162317] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/description/gazebo_control.xacro\n'}
+[0.162439] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/description/inertial_macros.xacro\n'}
+[0.162549] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/description/robot.urdf.xacro\n'}
+[0.162621] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/description/robot_core.xacro\n'}
+[0.162692] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/launch/launch_sim.launch.py\n'}
+[0.162746] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/launch/rsp.launch.py\n'}
+[0.162817] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/worlds/empty.world\n'}
+[0.162864] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ament_index/resource_index/package_run_dependencies/ev3ros\n'}
+[0.162929] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ament_index/resource_index/parent_prefix_path/ev3ros\n'}
+[0.162992] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/environment/ament_prefix_path.sh\n'}
+[0.163058] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/environment/ament_prefix_path.dsv\n'}
+[0.163136] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/environment/path.sh\n'}
+[0.163212] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/environment/path.dsv\n'}
+[0.163288] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/local_setup.bash\n'}
+[0.163366] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/local_setup.sh\n'}
+[0.163492] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/local_setup.zsh\n'}
+[0.163554] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/local_setup.dsv\n'}
+[0.163610] (ev3ros) StdoutLine: {'line': b'-- Symlinking: /root/r/install/ev3ros/share/ev3ros/package.dsv\n'}
+[0.168571] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ament_index/resource_index/packages/ev3ros\n'}
+[0.168714] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/cmake/ev3rosConfig.cmake\n'}
+[0.168805] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/cmake/ev3rosConfig-version.cmake\n'}
+[0.168858] (ev3ros) StdoutLine: {'line': b'-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/package.xml\n'}
+[0.170409] (ev3ros) CommandEnded: {'returncode': 0}
+[0.185898] (diffdrive_ev3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.190300] (diffdrive_ev3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199814] (-) TimerEvent: {}
+[0.231984] (diffdrive_ev3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.236549] (diffdrive_ev3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.236745] (diffdrive_ev3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.236918] (diffdrive_ev3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.239071] (diffdrive_ev3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.269346] (ev3ros) JobEnded: {'identifier': 'ev3ros', 'rc': 0}
+[0.290901] (diffdrive_ev3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.295863] (diffdrive_ev3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.296081] (diffdrive_ev3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.296382] (diffdrive_ev3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.299127] (diffdrive_ev3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.299890] (-) TimerEvent: {}
+[0.400080] (-) TimerEvent: {}
+[0.427311] (diffdrive_ev3) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.475391] (diffdrive_ev3) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500197] (-) TimerEvent: {}
+[0.505648] (diffdrive_ev3) StdoutLine: {'line': b'-- Found hardware_interface: 2.37.0 (/opt/ros/humble/share/hardware_interface/cmake)\n'}
+[0.542345] (diffdrive_ev3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.547633] (diffdrive_ev3) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.554913] (diffdrive_ev3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.566293] (diffdrive_ev3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.582675] (diffdrive_ev3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600303] (-) TimerEvent: {}
+[0.700566] (-) TimerEvent: {}
+[0.800826] (-) TimerEvent: {}
+[0.901077] (-) TimerEvent: {}
+[1.001337] (-) TimerEvent: {}
+[1.064175] (diffdrive_ev3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.066716] (diffdrive_ev3) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.098365] (diffdrive_ev3) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.101454] (-) TimerEvent: {}
+[1.128650] (diffdrive_ev3) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.130566] (diffdrive_ev3) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.139756] (diffdrive_ev3) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.146758] (diffdrive_ev3) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.152175] (diffdrive_ev3) StdoutLine: {'line': b'-- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND\n'}
+[1.158402] (diffdrive_ev3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.167464] (diffdrive_ev3) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.201571] (-) TimerEvent: {}
+[1.227247] (diffdrive_ev3) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.227477] (diffdrive_ev3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.285221] (diffdrive_ev3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.286097] (diffdrive_ev3) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.301649] (-) TimerEvent: {}
+[1.399665] (diffdrive_ev3) StdoutLine: {'line': b'-- Found controller_manager: 2.37.0 (/opt/ros/humble/share/controller_manager/cmake)\n'}
+[1.401712] (-) TimerEvent: {}
+[1.501918] (-) TimerEvent: {}
+[1.602189] (-) TimerEvent: {}
+[1.702454] (-) TimerEvent: {}
+[1.802712] (-) TimerEvent: {}
+[1.902962] (-) TimerEvent: {}
+[2.003209] (-) TimerEvent: {}
+[2.058057] (diffdrive_ev3) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.073902] (diffdrive_ev3) StdoutLine: {'line': b'-- Generating done\n'}
+[2.074953] (diffdrive_ev3) StdoutLine: {'line': b'-- Build files have been written to: /root/r/build/diffdrive_ev3\n'}
+[2.084102] (diffdrive_ev3) CommandEnded: {'returncode': 0}
+[2.084544] (diffdrive_ev3) JobProgress: {'identifier': 'diffdrive_ev3', 'progress': 'build'}
+[2.084859] (diffdrive_ev3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/r/build/diffdrive_ev3', '--', '-j12', '-l12'], 'cwd': '/root/r/build/diffdrive_ev3', 'env': OrderedDict([('HOSTNAME', 'B460-008'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/r/ev3ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/r/install:/root/YDLidar-SDK/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/r/install/ev3ros:/root/YDLidar-SDK/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('PWD', '/root/r/build/diffdrive_ev3'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/r/install/ev3ros:/root/YDLidar-SDK/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[2.103382] (-) TimerEvent: {}
+[2.121953] (diffdrive_ev3) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_ev3.dir/src/wheel.cpp.o\x1b[0m\n'}
+[2.122149] (diffdrive_ev3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_ev3.dir/src/ev3rcpy.cpp.o\x1b[0m\n'}
+[2.122210] (diffdrive_ev3) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/diffdrive_ev3.dir/src/diffdrive_ev3.cpp.o\x1b[0m\n'}
+[2.203510] (-) TimerEvent: {}
+[2.303788] (-) TimerEvent: {}
+[2.404078] (-) TimerEvent: {}
+[2.504345] (-) TimerEvent: {}
+[2.604650] (-) TimerEvent: {}
+[2.704913] (-) TimerEvent: {}
+[2.805154] (-) TimerEvent: {}
+[2.905502] (-) TimerEvent: {}
+[3.005776] (-) TimerEvent: {}
+[3.106056] (-) TimerEvent: {}
+[3.206315] (-) TimerEvent: {}
+[3.306591] (-) TimerEvent: {}
+[3.406871] (-) TimerEvent: {}
+[3.507164] (-) TimerEvent: {}
+[3.607458] (-) TimerEvent: {}
+[3.707753] (-) TimerEvent: {}
+[3.808033] (-) TimerEvent: {}
+[3.908309] (-) TimerEvent: {}
+[3.994187] (diffdrive_ev3) StderrLine: {'line': b'\x1b[01m\x1b[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual CallbackReturn DiffDriveEv3::on_activate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.994373] (diffdrive_ev3) StderrLine: {'line': b'\x1b[01m\x1b[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:72:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.994445] (diffdrive_ev3) StderrLine: {'line': b'   72 | CallbackReturn DiffDriveEv3::on_activate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[3.994503] (diffdrive_ev3) StderrLine: {'line': b'      |                                          \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.994640] (diffdrive_ev3) StderrLine: {'line': b'\x1b[01m\x1b[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual CallbackReturn DiffDriveEv3::on_deactivate(const rclcpp_lifecycle::State&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.994721] (diffdrive_ev3) StderrLine: {'line': b'\x1b[01m\x1b[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:79:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kprevious_state\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.994783] (diffdrive_ev3) StderrLine: {'line': b'   79 | CallbackReturn DiffDriveEv3::on_deactivate(\x1b[01;35m\x1b[Kconst rclcpp_lifecycle::State & previous_state\x1b[m\x1b[K)\n'}
+[3.994835] (diffdrive_ev3) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.995115] (diffdrive_ev3) StderrLine: {'line': b'\x1b[01m\x1b[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type DiffDriveEv3::read(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.995205] (diffdrive_ev3) StderrLine: {'line': b'\x1b[01m\x1b[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:86:73:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.995367] (diffdrive_ev3) StderrLine: {'line': b'   86 | hardware_interface::return_type DiffDriveEv3::read(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[3.995433] (diffdrive_ev3) StderrLine: {'line': b'      |                                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.995487] (diffdrive_ev3) StderrLine: {'line': b'\x1b[01m\x1b[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:86:104:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.995539] (diffdrive_ev3) StderrLine: {'line': b'   86 | hardware_interface::return_type DiffDriveEv3::read(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[3.995595] (diffdrive_ev3) StderrLine: {'line': b'      |                                                                               \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[3.995645] (diffdrive_ev3) StderrLine: {'line': b'\x1b[01m\x1b[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvirtual hardware_interface::return_type DiffDriveEv3::write(const rclcpp::Time&, const rclcpp::Duration&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.995695] (diffdrive_ev3) StderrLine: {'line': b'\x1b[01m\x1b[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:114:74:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Ktime\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.995745] (diffdrive_ev3) StderrLine: {'line': b'  114 | hardware_interface::return_type DiffDriveEv3::write(\x1b[01;35m\x1b[Kconst rclcpp::Time & time\x1b[m\x1b[K, const rclcpp::Duration & period)\n'}
+[3.995794] (diffdrive_ev3) StderrLine: {'line': b'      |                                                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.995852] (diffdrive_ev3) StderrLine: {'line': b'\x1b[01m\x1b[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:114:105:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kperiod\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K-Wunused-parameter\x1b[m\x1b[K]\n'}
+[3.995893] (diffdrive_ev3) StderrLine: {'line': b'  114 | hardware_interface::return_type DiffDriveEv3::write(const rclcpp::Time & time, \x1b[01;35m\x1b[Kconst rclcpp::Duration & period\x1b[m\x1b[K)\n'}
+[3.995934] (diffdrive_ev3) StderrLine: {'line': b'      |                                                                                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[4.008411] (-) TimerEvent: {}
+[4.108702] (-) TimerEvent: {}
+[4.209000] (-) TimerEvent: {}
+[4.309306] (-) TimerEvent: {}
+[4.409636] (-) TimerEvent: {}
+[4.509936] (-) TimerEvent: {}
+[4.610255] (-) TimerEvent: {}
+[4.710543] (-) TimerEvent: {}
+[4.810830] (-) TimerEvent: {}
+[4.911118] (-) TimerEvent: {}
+[5.011414] (-) TimerEvent: {}
+[5.111779] (-) TimerEvent: {}
+[5.212215] (-) TimerEvent: {}
+[5.312595] (-) TimerEvent: {}
+[5.413018] (-) TimerEvent: {}
+[5.513608] (-) TimerEvent: {}
+[5.614238] (-) TimerEvent: {}
+[5.714597] (-) TimerEvent: {}
+[5.814862] (-) TimerEvent: {}
+[5.915100] (-) TimerEvent: {}
+[6.015340] (-) TimerEvent: {}
+[6.043495] (diffdrive_ev3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libdiffdrive_ev3.so\x1b[0m\n'}
+[6.115507] (-) TimerEvent: {}
+[6.158158] (diffdrive_ev3) StdoutLine: {'line': b'[100%] Built target diffdrive_ev3\n'}
+[6.165415] (diffdrive_ev3) CommandEnded: {'returncode': 0}
+[6.181805] (diffdrive_ev3) JobProgress: {'identifier': 'diffdrive_ev3', 'progress': 'install'}
+[6.182090] (diffdrive_ev3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/r/build/diffdrive_ev3'], 'cwd': '/root/r/build/diffdrive_ev3', 'env': OrderedDict([('HOSTNAME', 'B460-008'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/root/r/ev3ros'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/root/r/install:/root/YDLidar-SDK/ydlidar_ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0.0'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/r/install/ev3ros:/root/YDLidar-SDK/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble'), ('PWD', '/root/r/build/diffdrive_ev3'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/r/install/ev3ros:/root/YDLidar-SDK/ydlidar_ros2_ws/install/ydlidar_ros2_driver:/opt/ros/humble')]), 'shell': False}
+[6.186481] (diffdrive_ev3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.186749] (diffdrive_ev3) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[6.186917] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3//robot_hardware.xml\n'}
+[6.191594] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/lib/libdiffdrive_ev3.so\n'}
+[6.198339] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/controllers/robot_controller_example.yaml\n'}
+[6.205176] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/fake_robot.launch.py\n'}
+[6.212396] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/test_robot.launch.py\n'}
+[6.215639] (-) TimerEvent: {}
+[6.218822] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/library_path.sh\n'}
+[6.225784] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/library_path.dsv\n'}
+[6.232116] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/ament_index/resource_index/package_run_dependencies/diffdrive_ev3\n'}
+[6.236539] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/ament_index/resource_index/parent_prefix_path/diffdrive_ev3\n'}
+[6.241058] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/ament_prefix_path.sh\n'}
+[6.246406] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/ament_prefix_path.dsv\n'}
+[6.251539] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/path.sh\n'}
+[6.256051] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/path.dsv\n'}
+[6.260813] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/local_setup.bash\n'}
+[6.266970] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/local_setup.sh\n'}
+[6.271611] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/local_setup.zsh\n'}
+[6.276171] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/local_setup.dsv\n'}
+[6.281935] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/package.dsv\n'}
+[6.286324] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/ament_index/resource_index/packages/diffdrive_ev3\n'}
+[6.290500] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_ev3\n'}
+[6.295555] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.301562] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.307297] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/cmake/diffdrive_ev3Config.cmake\n'}
+[6.312623] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/cmake/diffdrive_ev3Config-version.cmake\n'}
+[6.315774] (-) TimerEvent: {}
+[6.318425] (diffdrive_ev3) StdoutLine: {'line': b'-- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/package.xml\n'}
+[6.324715] (diffdrive_ev3) CommandEnded: {'returncode': 0}
+[6.415887] (-) TimerEvent: {}
+[6.438743] (diffdrive_ev3) JobEnded: {'identifier': 'diffdrive_ev3', 'rc': 0}
+[6.439482] (-) EventReactorShutdown: {}

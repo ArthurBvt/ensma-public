@@ -1,0 +1,99 @@
+[0.113s] Invoking command in '/root/r/build/diffdrive_ev3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/r/diffdrive_ev3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/r/install/diffdrive_ev3
+[0.149s] -- The C compiler identification is GNU 11.4.0
+[0.186s] -- The CXX compiler identification is GNU 11.4.0
+[0.190s] -- Detecting C compiler ABI info
+[0.232s] -- Detecting C compiler ABI info - done
+[0.236s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.237s] -- Detecting C compile features
+[0.237s] -- Detecting C compile features - done
+[0.239s] -- Detecting CXX compiler ABI info
+[0.291s] -- Detecting CXX compiler ABI info - done
+[0.296s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.296s] -- Detecting CXX compile features
+[0.296s] -- Detecting CXX compile features - done
+[0.299s] -- Found ament_cmake: 1.3.7 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.427s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.475s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.506s] -- Found hardware_interface: 2.37.0 (/opt/ros/humble/share/hardware_interface/cmake)
+[0.542s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.548s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.555s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.566s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.064s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.067s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.098s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.129s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.130s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.140s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.147s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.152s] -- Found TinyXML2 via Config file: TinyXML2_DIR-NOTFOUND
+[1.158s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.167s] -- Looking for pthread.h
+[1.227s] -- Looking for pthread.h - found
+[1.227s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.285s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.286s] -- Found Threads: TRUE  
+[1.400s] -- Found controller_manager: 2.37.0 (/opt/ros/humble/share/controller_manager/cmake)
+[2.058s] -- Configuring done
+[2.074s] -- Generating done
+[2.075s] -- Build files have been written to: /root/r/build/diffdrive_ev3
+[2.084s] Invoked command in '/root/r/build/diffdrive_ev3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/r/diffdrive_ev3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/r/install/diffdrive_ev3
+[2.085s] Invoking command in '/root/r/build/diffdrive_ev3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/r/build/diffdrive_ev3 -- -j12 -l12
+[2.122s] [ 25%] [32mBuilding CXX object CMakeFiles/diffdrive_ev3.dir/src/wheel.cpp.o[0m
+[2.122s] [ 50%] [32mBuilding CXX object CMakeFiles/diffdrive_ev3.dir/src/ev3rcpy.cpp.o[0m
+[2.122s] [ 75%] [32mBuilding CXX object CMakeFiles/diffdrive_ev3.dir/src/diffdrive_ev3.cpp.o[0m
+[3.994s] [01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn DiffDriveEv3::on_activate(const rclcpp_lifecycle::State&)[m[K’:
+[3.994s] [01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:72:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.994s]    72 | CallbackReturn DiffDriveEv3::on_activate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[3.994s]       |                                          [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.994s] [01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:[m[K In member function ‘[01m[Kvirtual CallbackReturn DiffDriveEv3::on_deactivate(const rclcpp_lifecycle::State&)[m[K’:
+[3.995s] [01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:79:76:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kprevious_state[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.995s]    79 | CallbackReturn DiffDriveEv3::on_deactivate([01;35m[Kconst rclcpp_lifecycle::State & previous_state[m[K)
+[3.995s]       |                                            [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~[m[K
+[3.995s] [01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type DiffDriveEv3::read(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.995s] [01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:86:73:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.995s]    86 | hardware_interface::return_type DiffDriveEv3::read([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[3.995s]       |                                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.995s] [01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:86:104:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.995s]    86 | hardware_interface::return_type DiffDriveEv3::read(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[3.995s]       |                                                                               [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.995s] [01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:[m[K In member function ‘[01m[Kvirtual hardware_interface::return_type DiffDriveEv3::write(const rclcpp::Time&, const rclcpp::Duration&)[m[K’:
+[3.996s] [01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:114:74:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.996s]   114 | hardware_interface::return_type DiffDriveEv3::write([01;35m[Kconst rclcpp::Time & time[m[K, const rclcpp::Duration & period)
+[3.996s]       |                                                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[3.996s] [01m[K/root/r/diffdrive_ev3/src/diffdrive_ev3.cpp:114:105:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kperiod[m[K’ [[01;35m[K-Wunused-parameter[m[K]
+[3.996s]   114 | hardware_interface::return_type DiffDriveEv3::write(const rclcpp::Time & time, [01;35m[Kconst rclcpp::Duration & period[m[K)
+[3.996s]       |                                                                                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[6.043s] [100%] [32m[1mLinking CXX shared library libdiffdrive_ev3.so[0m
+[6.158s] [100%] Built target diffdrive_ev3
+[6.165s] Invoked command in '/root/r/build/diffdrive_ev3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/r/build/diffdrive_ev3 -- -j12 -l12
+[6.182s] Invoking command in '/root/r/build/diffdrive_ev3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/r/build/diffdrive_ev3
+[6.186s] -- Install configuration: ""
+[6.187s] -- Execute custom install script
+[6.187s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3//robot_hardware.xml
+[6.191s] -- Symlinking: /root/r/install/diffdrive_ev3/lib/libdiffdrive_ev3.so
+[6.198s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/controllers/robot_controller_example.yaml
+[6.205s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/fake_robot.launch.py
+[6.212s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/test_robot.launch.py
+[6.219s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/library_path.sh
+[6.226s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/library_path.dsv
+[6.232s] -- Symlinking: /root/r/install/diffdrive_ev3/share/ament_index/resource_index/package_run_dependencies/diffdrive_ev3
+[6.236s] -- Symlinking: /root/r/install/diffdrive_ev3/share/ament_index/resource_index/parent_prefix_path/diffdrive_ev3
+[6.241s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/ament_prefix_path.sh
+[6.246s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/ament_prefix_path.dsv
+[6.251s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/path.sh
+[6.256s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/environment/path.dsv
+[6.261s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/local_setup.bash
+[6.267s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/local_setup.sh
+[6.271s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/local_setup.zsh
+[6.276s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/local_setup.dsv
+[6.282s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/package.dsv
+[6.286s] -- Symlinking: /root/r/install/diffdrive_ev3/share/ament_index/resource_index/packages/diffdrive_ev3
+[6.290s] -- Symlinking: /root/r/install/diffdrive_ev3/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_ev3
+[6.296s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/cmake/ament_cmake_export_libraries-extras.cmake
+[6.301s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/cmake/ament_cmake_export_dependencies-extras.cmake
+[6.307s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/cmake/diffdrive_ev3Config.cmake
+[6.313s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/cmake/diffdrive_ev3Config-version.cmake
+[6.318s] -- Symlinking: /root/r/install/diffdrive_ev3/share/diffdrive_ev3/package.xml
+[6.325s] Invoked command in '/root/r/build/diffdrive_ev3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/r/build/diffdrive_ev3

@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/config/empty.yaml
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/description/gazebo_control.xacro
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/description/inertial_macros.xacro
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/description/robot.urdf.xacro
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/description/robot_core.xacro
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/launch/launch_sim.launch.py
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/launch/rsp.launch.py
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/worlds/empty.world
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ament_index/resource_index/package_run_dependencies/ev3ros
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ament_index/resource_index/parent_prefix_path/ev3ros
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/environment/path.sh
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/environment/path.dsv
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/local_setup.bash
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/local_setup.sh
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/local_setup.zsh
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/local_setup.dsv
+-- Symlinking: /root/r/install/ev3ros/share/ev3ros/package.dsv
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ament_index/resource_index/packages/ev3ros
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/cmake/ev3rosConfig.cmake
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/cmake/ev3rosConfig-version.cmake
+-- Up-to-date symlink: /root/r/install/ev3ros/share/ev3ros/package.xml

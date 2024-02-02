@@ -1,0 +1,6 @@
+Invoking command in '/root/r/build/diffdrive_ev3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/r/diffdrive_ev3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/r/install/diffdrive_ev3
+Invoked command in '/root/r/build/diffdrive_ev3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /root/r/diffdrive_ev3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/root/r/install/diffdrive_ev3
+Invoking command in '/root/r/build/diffdrive_ev3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/r/build/diffdrive_ev3 -- -j12 -l12
+Invoked command in '/root/r/build/diffdrive_ev3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /root/r/build/diffdrive_ev3 -- -j12 -l12
+Invoking command in '/root/r/build/diffdrive_ev3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/r/build/diffdrive_ev3
+Invoked command in '/root/r/build/diffdrive_ev3' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /root/r/build/diffdrive_ev3

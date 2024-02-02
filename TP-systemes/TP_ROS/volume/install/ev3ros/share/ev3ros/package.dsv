@@ -1,0 +1,8 @@
+source;share/ev3ros/hook/cmake_prefix_path.ps1
+source;share/ev3ros/hook/cmake_prefix_path.dsv
+source;share/ev3ros/hook/cmake_prefix_path.sh
+source;share/ev3ros/local_setup.bash
+source;share/ev3ros/local_setup.dsv
+source;share/ev3ros/local_setup.ps1
+source;share/ev3ros/local_setup.sh
+source;share/ev3ros/local_setup.zsh
